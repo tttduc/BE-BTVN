@@ -1,0 +1,11 @@
+POST http://localhost:9000/products HTTP/1.1
+content-type: application/json
+
+{
+   "name": "Vivo y305",
+   "price": 200000,
+   "discount": 4,
+   "stock": 100,
+   "categoryId": "641cfe2fa10f40b6e26e5c9f",
+   "supplierId": "643fa96bb1365a6ed81db8d4"
+}
